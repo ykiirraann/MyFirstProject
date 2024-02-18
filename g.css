@@ -1,0 +1,104 @@
+:root {
+    --green: #37617c;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    margin: 100;
+    padding: 100;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 900;
+    font-size: large;
+}
+
+.separator {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    /* font-weight: bolder; */
+}
+
+.google-signup-btn {
+    background-color: var(--green);
+    color: #fff;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 10px;
+    /* border-radius: 3em; */
+    border-radius: 10px 100px / 120px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.google-signup-btn svg {
+    height: 24px;
+
+    margin-right: -2em;
+
+}
+
+.signup-btn {
+    /* border-radius: 3em; */
+    border-radius: 10px 100px / 120px;
+}
+
+
+p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+a {
+    color: var(--green);
+    /* text-decoration: none; */
+    text-decoration: underline;
+    font-weight: 700;
+}
